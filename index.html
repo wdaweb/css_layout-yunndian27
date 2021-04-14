@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20210310 Homework</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        html,
+        body {
+            height: 100%;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(#fff 75%, #666 100%);
+        }
+
+        section {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: inline-block;
+            /* background: #fff; */
+            font-size: 0;
+
+            -webkit-box-reflect: below -1px linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 20%);
+        }
+
+        .box {
+            width: 300px;
+            height: 500px;
+            /* border: 1px solid #333; */
+
+            display: inline-block;
+            position: relative;
+            background: linear-gradient(90deg, #ccc, #fff 10%, #fff 90%, #ccc);
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+
+            transition: .3s linear;
+        }
+
+        .box:nth-child(1) {
+            background: linear-gradient(90deg, #fff 90%, #ccc)
+        }
+
+        .box:nth-child(4) {
+            background: linear-gradient(90deg, #ccc, #FFF 10%);
+        }
+
+        .pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-image: url("https://picsum.photos/120/120/?random=1");
+
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .box:nth-child(2) .pic {
+            background-image: url("https://picsum.photos/120/120/?random=2");
+        }
+
+        .box:nth-child(3) .pic {
+            background-image: url("https://picsum.photos/120/120/?random=3");
+        }
+
+        .box:nth-child(4) .pic {
+            background-image: url("https://picsum.photos/120/120/?random=4");
+        }
+
+        .box:hover {
+            color: #778899;
+            transform: scale(1.1);
+            background: #fff;
+            transition: all .3s ease-in;
+        }
+
+        .pic {
+            animation: picBig 1s linear 1.2s 1 backwards;
+        }
+
+        @keyframes picBig {
+            0% {
+                transform: translateX(-50%) scale(1) rotate(0);
+                top: 0%;
+                left: 50%;
+                opacity: 0;
+                border-radius: 10%;
+            }
+
+            25% {
+                transform: translateX(-50%) scale(1.1) rotate(120deg);
+                top: 10%;
+                left: 50%;
+                opacity: .5;
+                border-radius: 20%;
+            }
+
+            75% {
+                transform: translateX(-50%) scale(1.1) rotate(270deg);
+                top: 25%;
+                left: 50%;
+                opacity: 1;
+                border-radius: 30%;
+            }
+
+            100% {
+                transform: translateX(-50%) scale(1) rotate(360deg);
+                top: 20%;
+                left: 50%;
+                border-radius: 50%;
+            }
+        }
+
+        .text {
+            font-size: 1rem;
+            display: inline-block;
+            margin: 0 30px;
+
+            position: absolute;
+            top: 50%;
+
+            animation: textShow .5s ease-in .8s 1 backwards;
+        }
+
+        @keyframes textShow {
+            0% {
+                top: 40%;
+                opacity: 0;
+            }
+
+            100% {
+                top: 50%;
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="box">
+            <div class="pic"></div>
+            <div class="text">
+                <p>經營許可證很大錯誤你知道上帝手中留言板複雜取得，維持豐原起來四個，每月它是外掛本書檢測一時，供應不但愛情新臺幣活力遠程情節感興趣看過居然，文明上帝說法格式合適不想穿著聯繫電話美國，高級問題，能在魅力。
+                </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="pic"></div>
+            <div class="text">
+                <p>本書報名我有可能會，拿出來說各自不能下載研究生階段一半不會天氣配合是一個面對，多個資格將其打造見面房產鍵盤以便明確方向發行如果文件，這些根據心情精靈私人舉報採取一個月強烈關心，配置剛剛默認賺錢這種博。
+                </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="pic"></div>
+            <div class="text">
+                <p>肯定沒有任何介紹文本由此用來我的，學歷一家春天答應父親集團擔心，臉上免費電影，和我聽到最快漢化老婆外觀，溫度網址台中資料庫接口但我界面印象透露夫人言論暴力網頁課程，隨後立場性格不起，各國我和，充分最。
+                </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="pic"></div>
+            <div class="text">
+                <p>吃飯考核不少漢化個人黑色觀眾人口一張我這補充對付家園一個，使得然後部隊律師地圖旁邊，是我你還之類實際上英語郵箱欄目，小孩是指號碼點擊數主要程式期間一人，也就臺灣人上述醫藥，大概一邊瀏覽器，客人讓人危。
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
